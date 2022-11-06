@@ -1,10 +1,13 @@
+// 淘宝的ESP-01S继电器模块是GPIO0控制的
+
+
 #include <ESP8266WiFi.h>
 #include <aJSON.h>
 //=============  此处必须修该============
 String DEVICEID = "14174"; //你的设备编号==
 String APIKEY = "fccd78312"; //设备密码==
-const char* ssid = "Sandman"; //WiFi名称
-const char* password = "key147852369zbn"; //WiFi密码
+const char* ssid = "pig66"; //WiFi名称
+const char* password = "wlan147852"; //WiFi密码
 //=======================================
 #define OUT 0//输出控制继电器端口
 //=======================================
